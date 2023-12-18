@@ -30,7 +30,7 @@ class SemicolonSepararedStrategy implements Strategy {
     @NotNull
     @Override
     public String process(@NotNull List<String> strings) {
-        return StringUtils.join(strings, ",");
+        return StringUtils.join(strings, ";");
     }
 }
 
