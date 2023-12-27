@@ -1,9 +1,8 @@
-package io.raynelz.task2;
+package org.example.task2;
 
 import org.apache.commons.lang3.StringUtils;
 import org.jetbrains.annotations.NotNull;
 
-import java.security.Key;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;
@@ -14,6 +13,7 @@ class Request {
     private String method;
     private String session;
     private String path;
+
     public String getInputStream() {
         return inputStream;
     }
@@ -49,6 +49,8 @@ class Request {
         this.path = path;
         return this;
     }
+
+
 
     public Map<String, String> getHeaders() {
         return headers;

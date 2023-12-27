@@ -1,4 +1,4 @@
-package io.raynelz.task1;
+package org.example.task1;
 
 import org.jetbrains.annotations.NotNull;
 
